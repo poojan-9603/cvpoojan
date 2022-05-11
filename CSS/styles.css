@@ -131,3 +131,79 @@ h3{
   background-image: linear-gradient(to bottom, #3ca394, #57ab9d);
   text-decoration: none;
 }
+
+
+
+@media (max-width:1260px) {
+  .bottom-cloud{
+    position: absolute;
+    top: 200px;
+    left: 200px;
+  }
+
+}
+
+@media (max-width:1055px) {
+  .bottom-cloud{
+    position: absolute;
+    top: 200px;
+    left: 100px;
+  }
+  .top-cloud{
+    top: 70px;
+    right: 300px;
+  }
+
+}
+
+@media (max-width:870px) {
+  .bottom-cloud{
+    position: absolute;
+    top: 200px;
+    left: 50px;
+  }
+  .top-cloud{
+    top: 70px;
+    right: 150px;
+  }
+
+}
+
+@media (max-width:760px) {
+  .bottom-cloud{
+    position: absolute;
+    top: 200px;
+    left: 10px;
+  }
+  .top-cloud{
+    top: 70px;
+    right: 70px;
+  }
+
+}
+
+@media (max-width:665px) {
+  .bottom-cloud{
+    position: absolute;
+    top: 200px;
+    left: -40px;
+  }
+  .top-cloud{
+    top: 70px;
+    right: 150px;
+  }
+
+}
+
+@media (max-width:565px) {
+  .bottom-cloud{
+    position: absolute;
+    top: 270px;
+    left: -50px;
+  }
+  .top-cloud{
+    top: 70px;
+    right: 20px;
+  }
+
+}
